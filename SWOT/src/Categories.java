@@ -1,0 +1,6 @@
+public enum Categories {
+	STRENGTHS,
+	WEAKNESSES,
+	THREADS,
+	OPPORTUNITIES,
+}
