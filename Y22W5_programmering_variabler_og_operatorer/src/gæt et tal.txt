@@ -1,0 +1,18 @@
+---REQUREMENTS---
+- user må kun bruge heltal(not enforced men beskrvet med text)
+
+---KODE---
+vælg random hiddenNumber (1-25)
+
+text til user(hvad handler spillet om)
+
+loop - indtil user har fundet tallet (forsøg)
+	text til user (Giv et gæt)
+	input fra user
+	check input fra user(om det er = hiddenNumber)
+		case 1 hvis forkert
+			prøv ingen (text til user)
+		case 2
+			gættet rigtig (text til user)
+			spillet slutter og skriv text
+
