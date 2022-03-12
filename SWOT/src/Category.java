@@ -1,4 +1,4 @@
-public enum Categories {
+public enum Category {
 	STRENGTHS,
 	WEAKNESSES,
 	THREADS,

@@ -3,17 +3,17 @@ public class SWOTTest {
 		SWOT swot = new SWOT();
 		
 		// Add entries
-		swot.addEntry(Categories.STRENGTHS, "1");
-		swot.addEntry(Categories.STRENGTHS, "1");
-		swot.addEntry(Categories.STRENGTHS, "1");
-		swot.addEntry(Categories.STRENGTHS, "1");
+		swot.addEntry(Category.STRENGTHS, "1");
+		swot.addEntry(Category.STRENGTHS, "1");
+		swot.addEntry(Category.STRENGTHS, "1");
+		swot.addEntry(Category.STRENGTHS, "1");
 		
-		swot.addEntry(Categories.WEAKNESSES, "2");
-		swot.addEntry(Categories.WEAKNESSES, "2");
-		swot.addEntry(Categories.OPPORTUNITIES, "3");
-		swot.addEntry(Categories.OPPORTUNITIES, "3");
-		swot.addEntry(Categories.THREADS, "4");
-		swot.addEntry(Categories.THREADS, "4");
+		swot.addEntry(Category.WEAKNESSES, "2");
+		swot.addEntry(Category.WEAKNESSES, "2");
+		swot.addEntry(Category.OPPORTUNITIES, "3");
+		swot.addEntry(Category.OPPORTUNITIES, "3");
+		swot.addEntry(Category.THREADS, "4");
+		swot.addEntry(Category.THREADS, "4");
 		
 		System.out.println(swot.getLists());
 	}
