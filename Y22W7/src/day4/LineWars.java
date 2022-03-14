@@ -151,6 +151,7 @@ public class LineWars {
 	
 	public void enemyTurn() {
 		enemyEntropy = rnd.nextInt(100);
+		System.out.println(enemyEntropy);
 		
 		// enemy does random things
 		// When close to player
@@ -183,7 +184,7 @@ public class LineWars {
 			case "f" -> {
 				dice = (rnd.nextInt(2) + 1);
 				enemyLocation += move('-', dice, enemyLocation);
-				System.out.printf(" * Player rolled (%d) and is now at position: |%d|\n", dice, enemyLocation);
+				System.out.printf(" * Enemy rolled (%d) and is now at position: |%d|\n", dice, enemyLocation);
 				
 				if (scout(playerLocation, enemyLocation, '-', "the Enemy")) {
 					printBoard(true);
@@ -195,7 +196,6 @@ public class LineWars {
 				dice = (rnd.nextInt(3) + 1);
 				enemyLocation += move('+', dice, enemyLocation);
 				System.out.printf(" * Enemy rolled (%d) and got (%d) x 250 new firepower as he moved back and is now at position: |%d|\n", dice, dice, enemyLocation);
-				// Player rolled (%d) and got (%d) x 250 new firepower as he moved back and is now at position: |%d|\n", dice, dice,
 				if (scout(playerLocation, enemyLocation, '-', "the Enemy")) {
 					printBoard(true);
 				}
