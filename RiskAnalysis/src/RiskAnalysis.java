@@ -6,7 +6,7 @@ public class RiskAnalysis {
 	private ArrayList<RiskElement> riskElements = new ArrayList<>();
 	
 	RiskAnalysis() {
-		// N/A
+		// empty constructor
 	}
 	
 	void addElement(RiskElement element) {

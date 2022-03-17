@@ -67,13 +67,13 @@ public class RiskElement {
 		// Add severity color
 		switch (riskLevel) {
 			case VERY_LOW, LOW -> {
-				return Colors.ANSI_GREEN + riskLevel + Colors.ANSI_BLACK;
+				return Colors.ANSI_GREEN + riskLevel + Colors.ANSI_RESET;
 			}
 			case MEDIUM -> {
-				return Colors.ANSI_YELLOW + riskLevel + Colors.ANSI_BLACK;
+				return Colors.ANSI_YELLOW + riskLevel + Colors.ANSI_RESET;
 			}
 			case HIGH, VERY_HIGH -> {
-				return Colors.ANSI_RED + riskLevel + Colors.ANSI_BLACK;
+				return Colors.ANSI_RED + riskLevel + Colors.ANSI_RESET;
 			}
 			default -> throw new IllegalStateException("Unexpected value: " + riskLevel);
 		}
