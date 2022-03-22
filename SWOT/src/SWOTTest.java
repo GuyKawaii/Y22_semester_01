@@ -3,8 +3,8 @@ public class SWOTTest {
 		SWOT swot = new SWOT();
 		
 		// Add entries
-		swot.addEntry(Category.STRENGTHS, "1");
-		swot.addEntry(Category.STRENGTHS, "1");
+		swot.addEntry(Category.STRENGTHS, "coding");
+		swot.addEntry(Category.STRENGTHS, "work ethic");
 		swot.addEntry(Category.STRENGTHS, "1");
 		swot.addEntry(Category.STRENGTHS, "1");
 		

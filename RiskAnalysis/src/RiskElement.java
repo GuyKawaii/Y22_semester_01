@@ -58,7 +58,7 @@ public class RiskElement {
 			riskLevel = RiskLevel.MEDIUM;
 		} else if (severity <= 20) {
 			riskLevel = RiskLevel.HIGH;
-		} else { // (severity <= 20)
+		} else { // (severity <= 25)
 			riskLevel = RiskLevel.VERY_HIGH;
 		}
 	}

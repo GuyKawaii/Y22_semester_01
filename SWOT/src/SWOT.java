@@ -36,16 +36,16 @@ public class SWOT {
 	String getList(Category category) {
 		switch (category) {
 			case STRENGTHS -> {
-				return Colors.ANSI_BLUE + String.join("\n", strengths) + Colors.ANSI_BLACK;
+				return Colors.ANSI_BLUE + String.join("\n", strengths) + Colors.ANSI_RESET;
 			}
 			case WEAKNESSES -> {
-				return Colors.ANSI_RED + String.join("\n", weaknesses) + Colors.ANSI_BLACK;
+				return Colors.ANSI_RED + String.join("\n", weaknesses) + Colors.ANSI_RESET;
 			}
 			case THREADS -> {
-				return Colors.ANSI_PURPLE + String.join("\n", threads) + Colors.ANSI_BLACK;
+				return Colors.ANSI_PURPLE + String.join("\n", threads) + Colors.ANSI_RESET;
 			}
 			case OPPORTUNITIES -> {
-				return Colors.ANSI_GREEN + String.join("\n", opportunities) + Colors.ANSI_BLACK;
+				return Colors.ANSI_GREEN + String.join("\n", opportunities) + Colors.ANSI_RESET;
 			}
 			default -> throw new IllegalStateException("Unexpected value: " + category);
 		}
