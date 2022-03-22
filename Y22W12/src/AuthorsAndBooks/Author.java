@@ -1,4 +1,4 @@
-package AuthersAndBooks;
+package AuthorsAndBooks;
 
 import java.util.ArrayList;
 
