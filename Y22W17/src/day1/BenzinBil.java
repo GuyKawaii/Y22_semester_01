@@ -38,4 +38,12 @@ public class BenzinBil extends Bil {
     
     return afgift;
   }
+  
+  @Override
+  public String toString() {
+    return "BenzinBil{" +
+           "oktantal=" + oktantal +
+           ", kmPrL=" + kmPrL +
+           '}';
+  }
 }

@@ -47,4 +47,11 @@ public class DieselBil extends Bil {
     return afgift;
   }
   
+  @Override
+  public String toString() {
+    return "DieselBil{" +
+           "harPartikelfilter=" + harPartikelfilter +
+           ", kmPrL=" + kmPrL +
+           '}';
+  }
 }

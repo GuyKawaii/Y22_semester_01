@@ -50,4 +50,12 @@ public class ElBil extends Bil {
     return afgift;
   }
   
+  @Override
+  public String toString() {
+    return "ElBil{" +
+           "batterikapacitetKWh=" + batterikapacitetKWh +
+           ", whPrKm=" + whPrKm +
+           ", maxKm=" + maxKm +
+           '}';
+  }
 }
