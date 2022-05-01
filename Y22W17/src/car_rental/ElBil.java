@@ -1,4 +1,4 @@
-package day1;
+package car_rental;
 
 public class ElBil extends Bil {
   private int batterikapacitetKWh;

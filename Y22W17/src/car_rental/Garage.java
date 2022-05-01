@@ -1,10 +1,10 @@
-package day1;
+package car_rental;
 
 import java.util.ArrayList;
 
 public class Garage {
   private ArrayList<Bil> biler;
-  String name;
+  private String name;
   
   public Garage(String name) {
     this.name = name;

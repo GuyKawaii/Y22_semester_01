@@ -1,4 +1,4 @@
-package day1;
+package car_rental;
 
 public abstract class Bil {
   private String regNr;

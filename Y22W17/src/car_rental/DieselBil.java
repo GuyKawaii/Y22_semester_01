@@ -1,4 +1,4 @@
-package day1;
+package car_rental;
 
 public class DieselBil extends Bil {
   private boolean harPartikelfilter;

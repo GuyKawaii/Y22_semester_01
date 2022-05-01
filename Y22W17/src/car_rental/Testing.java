@@ -1,4 +1,4 @@
-package day1;public class Testing {
+package car_rental;public class Testing {
   public static void main(String[] args) {
     new Testing().run();
   }

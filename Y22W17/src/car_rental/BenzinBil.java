@@ -1,4 +1,4 @@
-package day1;
+package car_rental;
 
 public class BenzinBil extends Bil {
   private int oktantal;
