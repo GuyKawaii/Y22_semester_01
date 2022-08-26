@@ -1,6 +1,5 @@
 package extra;
 
-
 public abstract class Animal {
   private String name;
   

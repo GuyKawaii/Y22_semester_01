@@ -12,7 +12,8 @@ public class Test {
     text.addLine("C");
     text.addLine("D");
     text.addLine("D");
-    
+  
+  
     System.out.println(text.numberOfUniqueLines());
     
     

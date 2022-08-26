@@ -1,6 +1,5 @@
 package programmeringsovelser_1.e1;
 
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
